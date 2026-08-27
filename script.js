@@ -11,8 +11,8 @@ const io = new IntersectionObserver((entries) => {
 els.forEach(el => io.observe(el));
 
 // 2. Logic Ghép ảnh Canvas & Gửi Dữ liệu
-const API_URL = "https://script.google.com/macros/s/AKfycbwz5MR8ZaHuWLBrpDd3NESLt7n9t-eMbwEVUAQNY396ge9wIuF8g_4s-xaAj8MiBrFq/exec";
-
+const API_URL = "https://script.google.com/mc";
+MR8ZaHuWLBrpDd3NESLt7n9t-eMbwEVUAQNY396ge
 let imageFile = null;
 
 document.getElementById('guestImage').addEventListener('change', function(e) {
